@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="julios.login">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Sistema de Registro de notas"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="https://d2wu8443505y4l.cloudfront.net/img/institutions/1738.webp"/>
+
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese su usuario" />
+            
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese su contraseña" IsPassword="True"/>
+            <Button x:Name="btnIniciar" Text="INICIAR SESION" Clicked="btnIniciar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
