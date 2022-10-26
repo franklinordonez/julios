@@ -6,10 +6,16 @@
         <StackLayout>
             <Label Text="Ventana de Registro"
                
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" FontSize="Medium" BackgroundColor="Blue"/>
             <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
             <Entry x:Name="txtApellido" Placeholder="Ingrese su apellido"/>
-            <Entry x:Name="txtNota" Placeholder="Ingrese su Nota Final" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota1" Placeholder="Ingrese la nota de Seguimiento 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota2" Placeholder="Ingrese la nota del Examen1" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota3" Placeholder="Parcial 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota4" Placeholder="Ingrese la nota del segundo parcial" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota5" Placeholder="Ingrese la nota del Examen2" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota6" Placeholder="Parcial 2" Keyboard="Numeric"/>
+            <Entry x:Name="txtNota7" Placeholder="Total" Keyboard="Numeric"/>
             
             <Button x:Name="btnInformacion" Text="Mostar Informacion" Clicked="btnInformacion_Clicked"/>
             

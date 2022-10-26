@@ -29,6 +29,7 @@ namespace julios
 
             {
                 DisplayAlert("Alerta", "USUARIO CORRECTO", "Cerrar");
+                Navigation.PushAsync(new Registro());
             }
             else
             {

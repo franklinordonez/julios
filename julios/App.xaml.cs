@@ -10,7 +10,7 @@ namespace julios
         {
             InitializeComponent();
 
-            MainPage = new Registro();
+            MainPage = new NavigationPage (new Registro()); // Habilitar la Navegación
         }
 
         protected override void OnStart()
